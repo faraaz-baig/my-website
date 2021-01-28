@@ -1,29 +1,13 @@
 <template>
-  <svg class="NuxtLogo" width="245" height="180" viewBox="0 0 452 342" xmlns="http://www.w3.org/2000/svg">
-    <path
-      d="M139 330l-1-2c-2-4-2-8-1-13H29L189 31l67 121 22-16-67-121c-1-2-9-14-22-14-6 0-15 2-22 15L5 303c-1 3-8 16-2 27 4 6 10 12 24 12h136c-14 0-21-6-24-12z"
-      fill="#00C58E"
-    />
-    <path
-      d="M447 304L317 70c-2-2-9-15-22-15-6 0-15 3-22 15l-17 28v54l39-67 129 230h-49a23 23 0 0 1-2 14l-1 1c-6 11-21 12-23 12h76c3 0 17-1 24-12 3-5 5-14-2-26z"
-      fill="#108775"
-    />
-    <path
-      d="M376 330v-1l1-2c1-4 2-8 1-12l-4-12-102-178-15-27h-1l-15 27-102 178-4 12a24 24 0 0 0 2 15c4 6 10 12 24 12h190c3 0 18-1 25-12zM256 152l93 163H163l93-163z"
-      fill="#2F495E"
-    />
-  </svg>
+  <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="180" y="180" width="180" height="180" rx="40" transform="rotate(-180 180 180)" fill="url(#paint0_linear)"/>
+<path d="M33.34 147V101.02H24.98V90.57L33.34 87.93V83.97C33.34 76.49 34.8433 71.0267 37.85 67.58C40.93 64.1333 45.99 62.41 53.03 62.41C55.5233 62.41 57.8333 62.5933 59.96 62.96C62.0867 63.3267 63.8467 63.6933 65.24 64.06V75.72H56.22C53.7267 75.72 52.0033 76.3067 51.05 77.48C50.17 78.6533 49.73 80.5233 49.73 83.09V87.93H64.69V101.02H49.73V147H33.34Z" fill="white"/>
+<defs>
+<linearGradient id="paint0_linear" x1="350" y1="347" x2="180" y2="180" gradientUnits="userSpaceOnUse">
+<stop stop-color="#5DD38D"/>
+<stop offset="1" stop-color="#70D4BE"/>
+</linearGradient>
+</defs>
+</svg>
 </template>
 
-<style>
-.NuxtLogo {
-  animation: 1s appear;
-  margin: auto;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-}
-</style>
