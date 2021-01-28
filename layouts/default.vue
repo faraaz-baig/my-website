@@ -2,7 +2,7 @@
   <div class="container">
     <CThemeProvider>
       <CColorModeProvider>
-        <CBox font-family="body" 
+        <CBox font-family="Spartan"
         maxWidth="1140px" 
         h="100vh" 
         mx="auto">
