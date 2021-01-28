@@ -2,8 +2,12 @@
   <div class="container">
     <CThemeProvider>
       <CColorModeProvider>
-        <CBox font-family="body" as="main">
+        <CBox font-family="body" 
+        maxWidth="1140px" 
+        h="100vh" 
+        mx="auto">
           <CReset />
+          <Navbar />
           <Nuxt />
         </CBox>
       </CColorModeProvider>
