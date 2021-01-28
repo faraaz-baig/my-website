@@ -1,12 +1,12 @@
 <template>
-    <c-box>
+    <c-box width="100%" my="auto"  d="flex" justify-content="space-around" align-items="center" mx="auto">
       <c-box class="bubble" d="flex" justify-content="center" align-items="center">
         <c-image width="192px" z-index="2" :src="require('assets/hero.png')"></c-image>
       </c-box>
-      <c-box>
-        <c-text>Hi, I’m Faraaz </c-text>
-        <c-text>Entrepreneur, developer, UI designer, podcast host, gamer &  polygoth.</c-text>
-        <c-text>19-year-old dreamer and problem-solver based in BLR. I’m an introvert and i hate parties . When i’m not working you’ll find me chilling near lakeside.</c-text>
+      <c-box max-width="40%">
+        <c-text font-family="Fira Code" font-weight="500" color="green.500">Hi, I’m Faraaz ✌️</c-text>
+        <c-text font-size="3xl" font-weight="700" py="4">Entrepreneur, developer, UI designer, podcast host, gamer &  polygoth.</c-text>
+        <c-text font-size="md" color="#303030" font-weight="600">19-year-old dreamer and problem-solver based in BLR. I’m an introvert and i hate parties . When i’m not working you’ll find me chilling near lakeside.</c-text>
       </c-box>
         
      

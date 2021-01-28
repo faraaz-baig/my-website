@@ -4,11 +4,11 @@
       <CColorModeProvider>
         <CBox font-family="Spartan"
         maxWidth="1140px" 
-        h="100vh" 
-        mx="auto">
+        mx="auto" height="100vh" d="flex" flex-direction="column" justify-content="space-between" align-items="space-between">
           <CReset />
           <Navbar />
           <Nuxt />
+          <Footer  />
         </CBox>
       </CColorModeProvider>
     </CThemeProvider>
