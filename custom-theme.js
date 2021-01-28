@@ -4,6 +4,9 @@ export default {
       body: '"Spartan", sans-serif',
       mono: '"Fira Code", monospace'
     },
+    shadows: {
+      outline: '0 0 0 3px #52caaf'
+    },
     colors: {
       green: {
         50: '#e0fcf6',
@@ -29,6 +32,13 @@ export default {
         800: '#20202e',
         900: '#0a0a16',
       },
+
+    },
+    fontSizes: {
+      xxs: '10px',
+      mxs: '12px',
+      xxxs: '9px',
+      xxxxs: '8px',
 
     }
   }
