@@ -1,18 +1,22 @@
 <template>
-  <div class="container">
-    <CThemeProvider>
-      <CColorModeProvider>
-        <CBox font-family="Spartan"
-        maxWidth="1140px" 
-        mx="auto" height="100vh" d="flex" flex-direction="column" justify-content="space-between" align-items="space-between">
-          <CReset />
+    <c-theme-provider>
+      <c-color-mode-provider #default="{ colorMode }">
+        <c-box width="100%" height="100vh" v-bind="mainStyles[colorMode]">
+          <c-box 
+          v-bind="mainStyles[colorMode]"
+          font-family="Spartan"
+          maxWidth="1140px" 
+          mx="auto" height="100vh" d="flex" flex-direction="column" justify-content="space-between" align-items="space-between">
+          <c-reset />
           <Navbar />
           <Nuxt />
           <Footer  />
-        </CBox>
-      </CColorModeProvider>
-    </CThemeProvider>
-  </div>
+          </c-box>
+
+        </c-box>  
+        
+      </c-color-mode-provider>
+    </c-theme-provider>
 </template>
 <script>
 import {
@@ -23,12 +27,26 @@ import {
 } from '@chakra-ui/vue'
 
 export default {
-  name: 'App',
+  name: 'default layout',
   components: {
     CThemeProvider,
     CColorModeProvider,
     CReset,
     CBox
+  },
+  data () {
+    return {
+      mainStyles: {
+        dark: {
+          bg: 'darkBlue.800',
+          color: 'whiteAlpha.900',
+        },
+        light: {
+          bg: 'whiteAlpha.900',
+          color: 'darkBlue.800'
+        }
+      }
+    }
   }
 }
 </script>

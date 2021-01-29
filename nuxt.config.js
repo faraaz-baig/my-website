@@ -1,11 +1,12 @@
 import myTheme from './custom-theme.js'
+import { faBars, faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'my-website',
+    title: 'Faraaz Baig',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -60,5 +61,13 @@ export default {
 
   chakra: {
     extendTheme: myTheme,
-  }
+    icons: {
+      iconPack: 'fa',
+      iconSet: {
+        faSun,
+        faMoon,
+        faBars,
+      }
+    }
+  },
 }

@@ -4,9 +4,9 @@
         <c-image :width="['195px', '194px', '194px', '192px' ]" z-index="2" :src="require('assets/hero.png')"></c-image>
       </c-box>
       <c-box :max-width="['24rem', '24rem', '28rem', '31rem' ]" :mt="['12', '12', '12', '0']" :text-align="['center', 'center', 'center', 'left']">
-        <c-text font-family="Fira Code" font-weight="500" color="green.500">Hi, I’m Faraaz ✌️</c-text>
+        <c-text font-family="Fira Code" font-weight="500" color="green.400">Hi, I’m Faraaz ✌️</c-text>
         <c-text :font-size="['l', 'l', 'xl', '2xl']" font-weight="700" py="4">Entrepreneur, developer, UI designer, podcast host, gamer &  polygoth.</c-text>
-        <c-text :font-size="['sm', 'sm', 'md', 'md']" color="#303030" font-weight="600">19-year-old dreamer and problem-solver based in BLR. I’m an introvert and i hate parties . When i’m not working you’ll find me chilling near lakeside.</c-text>
+        <c-text :font-size="['sm', 'sm', 'md', 'md']" font-weight="500" opacity=".9">19-year-old dreamer and problem-solver based in BLR. I’m an introvert and i hate parties . When i’m not working you’ll find me chilling near lakeside.</c-text>
       </c-box>
         
      
@@ -50,7 +50,7 @@ export default {
     background-color: #9be2d2;
     transition: 800ms;
     animation: wave 10s linear infinite;
-    filter: drop-shadow(0px 4px 100px rgba(112, 212, 190, 0.42));
+    filter: drop-shadow(0px 4px 40px rgba(112, 212, 190, 0.42));
   }
 
   @keyframes wave {
