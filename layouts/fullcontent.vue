@@ -7,9 +7,9 @@
           v-bind="mainStyles[colorMode]"
           font-family="Spartan"
           maxWidth="1140px" 
-          mx="auto" height="100vh" d="flex" flex-direction="column" justify-content="space-between" align-items="space-between">
+          mx="auto" d="flex" flex-direction="column" justify-content="space-between" align-items="space-between">
           <c-reset />
-          <Navbar />
+          <Navbarfull />
           <Nuxt />
           <Footer  />
           </c-box>
@@ -19,6 +19,7 @@
       </c-color-mode-provider>
     </c-theme-provider>
 </template>
+
 <script>
 import {
   CThemeProvider,

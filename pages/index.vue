@@ -1,7 +1,7 @@
 <template>
     <c-box width="100%"  d="flex" :justify-content="['center', 'center', 'center', 'space-around']" :align-items="['center', 'center', 'space-between', 'center']" :flex-direction="['column', 'column', 'column', 'row']" mx="auto">
       <c-box class="bubble" d="flex" justify-content="center" align-items="center">
-        <c-image :width="['195px', '194px', '194px', '192px' ]" z-index="2" :src="require('assets/hero.png')"></c-image>
+        <c-image pointer-events="none" :width="['195px', '194px', '194px', '192px' ]" z-index="2" :src="require('assets/hero.png')"></c-image>
       </c-box>
       <c-box :max-width="['24rem', '24rem', '28rem', '31rem' ]" :mt="['12', '12', '12', '0']" :text-align="['center', 'center', 'center', 'left']">
         <c-text font-family="Fira Code" font-weight="500" color="green.400">Hi, I’m Faraaz ✌️</c-text>
@@ -21,23 +21,12 @@
 } from '@chakra-ui/vue'
 
 export default {
-  name: 'navbar',
+  name: 'main',
   components: {
     CImage,
     CBox,
     CText
   },
-  data () {
-    return {
-      
-    }
-  },
-  computed: {
-
-  },
-  methods: {
-    
-  }
 }
 </script>
 

@@ -1,5 +1,5 @@
 <template>
-  <c-box>
+  <c-box class="nav" position="fixed" top="0" width="100%" max-width="1140px" mx="auto" :bg="colorMode == 'light' ? 'rgba(255, 255, 255, 0.50)' :  'rgba(32, 32, 46, 0.87)' ">
     <c-box d="flex" justify-content="space-between" align-items="center" py="6" px="6">
         <c-box>
           <nuxt-link to="/"><svg width="96" height="20" viewBox="0 0 96 20" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -77,4 +77,8 @@ export default {
 .nuxt-link-active {
   font-weight: 700;
 }
+.nav {
+  backdrop-filter: saturate(180%) blur(38px);
+}
+
 </style>
