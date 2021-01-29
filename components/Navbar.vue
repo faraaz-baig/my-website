@@ -6,11 +6,12 @@
         
         <c-box>
             <c-icon-button
-             icon="moon"
+             :icon="colorMode == 'light' ? 'moon' : 'sun'"
              aria-label="dark mode toggle"
              bg="green.200"
              :_hover="{ bg: 'green.100'}"
              :_active="{ bg: 'green.100'}"
+             @click="$toggleColorMode"
             />
             <c-menu>
                 <c-menu-button
@@ -47,6 +48,7 @@
 
 export default {
   name: 'navbar',
+  inject: ['$chakraColorMode', '$toggleColorMode'],
   components: {
     CImage,
     CButton,
@@ -58,11 +60,12 @@ export default {
   },
   data () {
     return {
-      
     }
   },
   computed: {
-
+    colorMode () {
+      return this.$chakraColorMode()
+    }
   },
   methods: {
     

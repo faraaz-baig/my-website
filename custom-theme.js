@@ -40,5 +40,5 @@ export default {
       xxxs: '9px',
       xxxxs: '8px',
 
-    }
+    },
   }
