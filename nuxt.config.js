@@ -1,5 +1,5 @@
 import myTheme from './custom-theme.js'
-import { faBars, faMoon, faSun, faCalendarWeek, faClock } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faMoon, faSun, faCalendarWeek, faClock, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -13,7 +13,7 @@ export default {
       { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/icon.svg' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Spartan:wght@500;600;700;800&display=swap'}
     ]
   },
@@ -45,6 +45,9 @@ export default {
   pwa: {
     manifest: {
       lang: 'en'
+    },
+    icon: {
+      source: "/icon.svg"
     }
   },
 
@@ -60,7 +63,8 @@ export default {
         faMoon,
         faBars,
         faCalendarWeek,
-        faClock
+        faClock,
+        faArrowLeft
 
       }
     }
