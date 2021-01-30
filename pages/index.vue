@@ -45,7 +45,7 @@ export default {
     background-color: #9be2d2;
     transition: 800ms;
     animation: wave 10s linear infinite;
-    filter: drop-shadow(0px 4px 40px rgba(112, 212, 190, 0.42));
+    filter: drop-shadow(0px 4px 25px rgba(112, 212, 190, 0.42));
   }
 
   @keyframes wave {
