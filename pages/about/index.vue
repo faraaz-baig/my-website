@@ -12,7 +12,7 @@
                 </c-text>
                 <c-text mt="6" line-height="2"> During my 11th grade, I started preparing for IIT so I can crack it a year before my peers. But soon I realized that the Indian education system sucks. which led me to start my first ever startup called Baig Academy. 
                 </c-text>
-                <c-text mt="6" line-height="2">later,I co founded ViralFate. which eventually had to shutdown as I started to work on bigger projects.
+                <c-text mt="6" line-height="2">later,I co founded ViralFate.
                      Currently I am building <c-link as="a" href="https://www.onegig.in" color="green.500" >ONEGIG</c-link> ( marketplace that connects artists with event managers ).
                 </c-text>
                 <c-text mt="6" line-height="2">I run a podcast called <c-link as="a" href="https://www.achor.fm/impactact" color="green.500" >Impact Act</c-link> where I shares my perspective on life and talk about things around. </c-text>
