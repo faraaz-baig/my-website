@@ -3,9 +3,6 @@ title: Why I use DuckDuckGO 🌐
 date: Jan 2021
 read: 2 mins
 ---
-What was the last thing you searched for online? For me, it was ‘$120 in pounds’. Before that, I wanted to know the capital of Albania (Tirana), the Twitter handle of Liberal Democrat deputy leader Ed Davey (he’s @EdwardJDavey) and dates of bank holidays in the UK for 2020. Thrilling, I’m sure you’ll agree. But something makes these searches, in internet terms, a bit unusual. Shock, horror, I didn’t use Google. I used DuckDuckGo. And, after two years in the wilderness, I’m pretty sure I’m sold on a post-Google future.
-<br/>
-<br/>
 
 It all started with a realisation: most the things I search for are easy to find. Did I really need the all-seeing, all-knowing algorithms of Google to assist me? Probably not. So I made a simple change: I opened up Firefox on my Android phone and switched Google search for DuckDuckGo. As a result, I’ve had a fairly tedious but important revelation: I search for really obvious stuff. Google’s own data backs this up. Its annual round-up of the most searched-for terms is basically a list of names and events: World Cup, Avicii, Mac Miller, Stan Lee, Black Panther, Megan Markle. The list goes on. And I don’t need to buy into Google’s leviathan network of privacy-invading trackers to find out what Black Panther is and when I can go and see it at my local cinema.
 <br/>
