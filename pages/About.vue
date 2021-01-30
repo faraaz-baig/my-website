@@ -1,11 +1,12 @@
 <template>
-    <c-box mt="3rem">
-        <c-box d="flex" justify-content="center" my="4rem">
+    <c-box>
+        <c-box :height="['110px', '110px', '110px', '110px' ]" display="block"></c-box>
+        <c-box d="flex" justify-content="center" :mb="['4rem', '4rem', '6rem', '6rem']" :height="['320px', '320px', '368px', '368px' ]" >
             <c-image class="hero" pointer-events="none"  :width="['20rem', '20rem', '23rem', '23rem']" :src="require('assets/my.png')"/>
         </c-box>
-        <c-box d="flex" :flex-direction="['column', 'column', 'column', 'row']" :justify-content="['center', 'center', 'space-around', 'space-around']" :align-items="['center', 'center', 'center', 'flex-start']" my="8rem">
+        <c-box d="flex" :flex-direction="['column', 'column', 'column', 'row']" :justify-content="['center', 'center', 'space-around', 'space-around']" :align-items="['center', 'center', 'center', 'flex-start']" my="4rem" px="6">
             <c-text font-weight="800" :mb="['6', '6', '6', '0']" font-size="2xl">My Story</c-text>
-            <c-box :width="['25rem', '27rem', '40rem', '40rem']" font-weight="600">
+            <c-box :width="['24rem', '27rem', '40rem', '40rem']" font-weight="600">
                 <c-text line-height="2">
                     Coming from a typical middle class family, I was told that schools and colleges were only ways to succeed in life. During my school life I struggled to talk on stage, struggled with low self esteem, low confidence and autism. 
                 </c-text>
@@ -17,9 +18,9 @@
                 <c-text mt="6" line-height="2">I run a podcast called <c-link as="a" href="https://www.achor.fm/impactact" color="green.500" >Impact Act</c-link> where I shares my perspective on life and talk about things around. </c-text>
             </c-box>
         </c-box>
-        <c-box d="flex" justify-content="space-around" :flex-direction="['column', 'column', 'column', 'row']" :align-items="['center', 'center', 'center', 'flex-start']" mb="8rem" >
+        <c-box d="flex" justify-content="space-around" :flex-direction="['column', 'column', 'column', 'row']" :align-items="['center', 'center', 'center', 'flex-start']" mb="4rem" px="6" >
             <c-text font-weight="800" :mb="['6', '6', '6', '0']" font-size="2xl">My Skills</c-text>
-            <c-box :width="['25rem', '27rem', '40rem', '40rem']" >
+            <c-box :width="['24rem', '27rem', '40rem', '40rem']" >
                 <c-box >
                     <c-text font-weight="700" font-size="xl" color="green.500">
                         💻 Coding
@@ -112,6 +113,7 @@
             
             
         </c-box>
+        <Footer />
     </c-box>
     
     
@@ -124,18 +126,18 @@
     CBox,
     CText,
     CTag,
-    Clink,
+    CLink,
 } from '@chakra-ui/vue'
     
 export default {
-    layout: 'fullcontent',
+    
     name: 'navbar',
     components: {
     CImage,
     CBox,
     CText,
     CTag,
-    Clink,
+    CLink,
   },
   data() {
       return {

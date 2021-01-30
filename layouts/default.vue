@@ -4,14 +4,13 @@
         <c-box width="100%" v-bind="mainStyles[colorMode]">
           <c-box
           user-select="none" 
-          v-bind="mainStyles[colorMode]"
           font-family="Spartan"
-          maxWidth="1140px" 
-          mx="auto" height="100vh" d="flex" flex-direction="column" justify-content="space-between" align-items="space-between">
+          maxWidth="1140px"
+          transition="all 200ms ease-in"
+          mx="auto">
           <c-reset />
           <Navbar />
           <Nuxt />
-          <Footer  />
           </c-box>
 
         </c-box>  
@@ -28,7 +27,7 @@ import {
 } from '@chakra-ui/vue'
 
 export default {
-  name: 'default layout',
+  name: 'app',
   components: {
     CThemeProvider,
     CColorModeProvider,
