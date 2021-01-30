@@ -1,5 +1,5 @@
 import myTheme from './custom-theme.js'
-import { faBars, faMoon, faSun } from '@fortawesome/free-solid-svg-icons'
+import { faBars, faMoon, faSun, faCalendarWeek, faClock } from '@fortawesome/free-solid-svg-icons'
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -33,20 +33,13 @@ export default {
   buildModules: [
   ],
  
-  // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    // https://go.nuxtjs.dev/chakra
     '@chakra-ui/nuxt',
-    // https://go.nuxtjs.dev/emotion
     '@nuxtjs/emotion',
-    // https://go.nuxtjs.dev/axios
-    '@nuxtjs/axios',
-    // https://go.nuxtjs.dev/pwa
+    '@nuxt/content',
     '@nuxtjs/pwa',
   ],
 
-  // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
@@ -55,7 +48,6 @@ export default {
     }
   },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
   },
 
@@ -67,6 +59,9 @@ export default {
         faSun,
         faMoon,
         faBars,
+        faCalendarWeek,
+        faClock
+
       }
     }
   },

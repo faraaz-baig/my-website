@@ -27,7 +27,7 @@
 } from '@chakra-ui/vue'
 
 export default {
-  name: 'main',
+  name: 'home',
   components: {
     CImage,
     CBox,

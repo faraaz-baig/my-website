@@ -39,7 +39,7 @@
 } from '@chakra-ui/vue'
 
 export default {
-  name: 'navbar',
+  name: 'Foot',
   components: {
     CImage,
     CBox,

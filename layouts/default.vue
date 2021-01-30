@@ -27,7 +27,7 @@ import {
 } from '@chakra-ui/vue'
 
 export default {
-  name: 'app',
+  name: 'Faraaz',
   components: {
     CThemeProvider,
     CColorModeProvider,
@@ -45,9 +45,9 @@ export default {
           bg: 'whiteAlpha.900',
           color: 'darkBlue.800'
         }
-      }
+      },
     }
-  }
+  },
 }
 </script>
 

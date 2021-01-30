@@ -131,7 +131,7 @@
     
 export default {
     
-    name: 'navbar',
+    name: 'about',
     components: {
     CImage,
     CBox,

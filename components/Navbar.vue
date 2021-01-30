@@ -47,7 +47,7 @@
 } from '@chakra-ui/vue'
 
 export default {
-  name: 'navbar',
+  name: 'Navigation',
   inject: ['$chakraColorMode', '$toggleColorMode'],
   components: {
     CImage,
