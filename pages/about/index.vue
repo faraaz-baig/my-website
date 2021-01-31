@@ -5,7 +5,7 @@
             <c-image class="hero" pointer-events="none"  :width="['20rem', '20rem', '23rem', '23rem']" :src="require('assets/my.png')"/>
         </c-box>
         <c-box d="flex" :flex-direction="['column', 'column', 'column', 'row']" :justify-content="['center', 'center', 'space-around', 'space-around']" :align-items="['center', 'center', 'center', 'flex-start']" my="4rem" px="6">
-            <c-text font-weight="800" :mb="['6', '6', '6', '0']" font-size="2xl">My Story</c-text>
+            <c-text font-weight="800" :mb="['6', '6', '6', '0']" :font-size="['xl', '2xl', '2xl', '2xl']">My Story</c-text>
             <c-box :width="['24rem', '27rem', '40rem', '40rem']" font-weight="600">
                 <c-text line-height="2">
                     Coming from a typical middle class family, I was told that schools and colleges were only ways to succeed in life. During my school life I struggled to talk on stage, struggled with low self esteem, low confidence and autism. 
@@ -19,7 +19,7 @@
             </c-box>
         </c-box>
         <c-box d="flex" justify-content="space-around" :flex-direction="['column', 'column', 'column', 'row']" :align-items="['center', 'center', 'center', 'flex-start']" mb="4rem" px="6" >
-            <c-text font-weight="800" :mb="['6', '6', '6', '0']" font-size="2xl">My Skills</c-text>
+            <c-text font-weight="800" :mb="['6', '6', '6', '0']" :font-size="['xl', '2xl', '2xl', '2xl']" >My Skills</c-text>
             <c-box :width="['24rem', '27rem', '40rem', '40rem']" >
                 <c-box >
                     <c-text font-weight="700" font-size="xl" color="green.500">
