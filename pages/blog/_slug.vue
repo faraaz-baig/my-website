@@ -1,5 +1,5 @@
 <template>
-    <c-box :height="['', '', '', '' ]" d="flex" flex-direction="column" justify-content="space-between">
+    <c-box :min-height="['', '', '', '100vh' ]" d="flex" flex-direction="column" justify-content="space-between">
     <c-box :height="['110px', '110px', '110px', '110px' ]" display="block"></c-box>
     <c-box>
         <c-text font-size="3xl" mb="1rem" px="4rem" text-align="center" font-weight="700">{{ article.title }}</c-text>
