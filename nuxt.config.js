@@ -60,7 +60,7 @@ export default {
       lang: 'en'
     },
     icon: {
-      source: "/favicon.svg"
+      source: "/icon.png"
     }
   },
 
