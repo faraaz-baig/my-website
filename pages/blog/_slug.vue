@@ -2,7 +2,7 @@
     <c-box :height="['', '', '', '' ]" d="flex" flex-direction="column" justify-content="space-between">
     <c-box :height="['110px', '110px', '110px', '110px' ]" display="block"></c-box>
     <c-box>
-        <c-text font-size="4xl" mb="1rem" text-align="center" font-weight="700">{{ article.title }}</c-text>
+        <c-text font-size="3xl" mb="1rem" px="4rem" text-align="center" font-weight="700">{{ article.title }}</c-text>
         <c-box width="200px" mx="auto" opacity="0.6">
             <c-list font-size="xs" d="flex" justify-content="space-between">
                 <c-list-item><c-list-icon icon="calendar-week"/>{{ article.date }}</c-list-item>
