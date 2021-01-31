@@ -39,6 +39,8 @@ export default {
       mxs: '12px',
       xxxs: '9px',
       xxxxs: '8px',
+      xxxxxs: '6px',
+      very: '4px',
 
     },
   }

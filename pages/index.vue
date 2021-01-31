@@ -4,12 +4,12 @@
     <c-box>
       <c-box px="2rem" width="100%"  d="flex" :justify-content="['center', 'center', 'center', 'space-around']" :align-items="['center', 'center', 'space-between', 'center']" :flex-direction="['column', 'column', 'column', 'row']" mx="auto">
       <c-box class="bubble" d="flex" justify-content="center" align-items="center">
-        <c-image pointer-events="none" :width="['195px', '194px', '194px', '192px' ]" z-index="2" :src="require('assets/hero.png')"></c-image>
+        <c-image pointer-events="none" :width="['193px', '194px', '194px', '192px' ]" z-index="2" :src="require('assets/hero.png')"></c-image>
       </c-box>
       <c-box :max-width="['24rem', '24rem', '28rem', '31rem' ]" :mt="['12', '12', '12', '0']" :text-align="['center', 'center', 'center', 'left']">
         <c-text font-family="Fira Code" font-weight="500" color="green.400">Hi, I’m Faraaz ✌️</c-text>
-        <c-text :font-size="['l', 'l', 'xl', '2xl']" font-weight="700" py="4">Entrepreneur, developer, UI designer, podcast host, gamer & a polymath.</c-text>
-        <c-text :font-size="['sm', 'sm', 'md', 'md']" font-weight="500" opacity=".9">19-year-old dreamer and problem-solver based in BLR. I’m an introvert and i hate parties . When i’m not working you’ll find me meditating or enjoying nature near lakeside.</c-text>
+        <c-text :font-size="['md', 'l', 'xl', '2xl']" font-weight="700" py="4">Entrepreneur, developer, UI designer, podcast host, gamer & a polymath.</c-text>
+        <c-text :font-size="['xs', 'sm', 'md', 'md']" font-weight="500" opacity=".9">19-year-old dreamer and problem-solver based in BLR. I’m an introvert and i hate parties . When i’m not working you’ll find me meditating or enjoying nature near lakeside.</c-text>
       </c-box>
       </c-box>
     </c-box>
