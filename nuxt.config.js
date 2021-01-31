@@ -1,10 +1,8 @@
 import myTheme from './custom-theme.js'
 import { faBars, faMoon, faSun, faCalendarWeek, faClock, faArrowLeft } from '@fortawesome/free-solid-svg-icons'
 export default {
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Faraaz Baig',
     meta: [
@@ -31,18 +29,14 @@ export default {
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
   ],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
   ],
  
@@ -53,14 +47,9 @@ export default {
     '@nuxtjs/pwa',
   ],
 
-
-  // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
       lang: 'en'
-    },
-    icon: {
-      source: "/icon.png"
     }
   },
 
