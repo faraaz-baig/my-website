@@ -26,7 +26,7 @@ export default {
       { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, personal webste, coding, entrepreneur, entreprenurship, bangalore, bengaluru, tech entrepreneur, teenage entrepreneur, onegig, faraaz baig, faraaz, linkedin, gmail, instagram, github, blog, podcast, impact act, viralfate, baig academy' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/icon.svg' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.svg' },
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Spartan:wght@500;600;700;800&display=swap'}
     ]
   },
@@ -60,7 +60,7 @@ export default {
       lang: 'en'
     },
     icon: {
-      source: "/icon.svg"
+      source: "/favicon.svg"
     }
   },
 
