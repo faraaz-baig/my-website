@@ -1,7 +1,7 @@
 <template>
     <c-box d="flex" :justify-content="['space-between', 'space-between', 'space-between', 'space-between']" :align-items="['center', 'center', 'center', 'flex-end']" :font-size="['mxs', 'mxs', 'xs', 'sm']" p="6" :flex-direction="['column', 'column', 'column', 'row']">
         <c-box>
-            <c-text font-weight="500" :font-size="['xs', 'xs', 'xs', 'sm']" :text-align="['center', 'center', 'center', 'left']" opacity="0.8">Have a great idea to share?  Reach me at </c-text>
+            <c-text font-weight="600" :font-size="['xs', 'xs', 'xs', 'sm']" :text-align="['center', 'center', 'center', 'left']" opacity="0.8">Have a great idea to share?  Reach me at </c-text>
             <c-box :py="['2', '2', '2', '3']" d="flex" :font-size="['xxs', 'xs', 'xs', 'sm']">
                 <c-link as="a" opacity="0.6" href="mailto: me@faraazbaig.com" pr="4" :_hover="{ color: 'green.500', textDecoration: 'none', opacity: '1'}">Email</c-link>
                 <c-link as="a" opacity="0.6" target="_blank" href="https://www.twitter.com/faraazofficial" pr="4" :_hover="{ color: 'green.500', textDecoration: 'none', opacity: '1'}">Twitter</c-link>
