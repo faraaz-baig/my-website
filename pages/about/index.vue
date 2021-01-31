@@ -150,7 +150,7 @@ export default {
           business: ['Baig Academy', 'Viral Fate', 'Impact Act', 'ONEGIG'],
           sports: ['Football', 'Taekwondo', 'Running', 'Trekking'],
           writing: ['How I Found Myself'],
-          langs: ['English', 'Urdu', 'Kannada', 'Hindi', 'Arabic', 'Korean', 'Telugu', 'Chinese', 'Bhojpuri'],
+          langs: ['English', 'Urdu', 'Kannada', 'Hindi', 'Arabic', 'Korean', 'Telugu', 'Chinese'],
           description: 'I am a Bangalore based Tech Entrepreneur currently building onegig.in, Full Stack Developer and a Podcaster.',
           name: 'About',
 
