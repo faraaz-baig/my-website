@@ -35,7 +35,6 @@
 } from '@chakra-ui/vue'
 
 export default {
-  name: 'blog',
   components: {
     CImage,
     CBox,
@@ -51,6 +50,42 @@ export default {
     console.log(articles)
     return {
       articles
+    }
+  },
+
+    data() {
+      return {
+        description: 'Welcome to my blog. I write about entrepreneurship, coding, technology, my experiences, productivity hacks, mindset, spirituality and my opinions',
+        name: 'Blog',
+      }
+    },
+    
+  head() {
+    return {
+        meta: [{
+            hid: 'description',
+            name: 'description',
+            content: this.description}, 
+            {
+            hid: 'twitter:card',
+            name: 'twitter:card',
+            content: `Faraaz Baig | ${this.name}`}, 
+            {
+            hid: 'twitter:title',
+            name: 'twitter:title',
+            content: `Faraaz Baig | ${this.name}`}, 
+            {
+            hid: 'twitter:description',
+            name: 'twitter:description',
+            content: this.description}, 
+            {
+            hid: 'og:title',
+            name: 'og:title',
+            content: `Faraaz Baig | ${this.name}`}, 
+            {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.description}]
     }
   }
 }

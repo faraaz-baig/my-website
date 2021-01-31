@@ -33,6 +33,42 @@ export default {
     CBox,
     CText
   },
+
+   data() {
+      return {
+        description: 'Welcome to my website. I am a Bangalore based Tech Entrepreneur currently building onegig.in, Full Stack Developer and a Podcaster.',
+        name: 'Home',
+      }
+    },
+    
+  head() {
+    return {
+        meta: [{
+            hid: 'description',
+            name: 'description',
+            content: this.description}, 
+            {
+            hid: 'twitter:card',
+            name: 'twitter:card',
+            content: `Faraaz Baig | ${this.name}`}, 
+            {
+            hid: 'twitter:title',
+            name: 'twitter:title',
+            content: `Faraaz Baig | ${this.name}`}, 
+            {
+            hid: 'twitter:description',
+            name: 'twitter:description',
+            content: this.description}, 
+            {
+            hid: 'og:title',
+            name: 'og:title',
+            content: `Faraaz Baig | ${this.name}`}, 
+            {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.description}]
+    }
+  }
 }
 </script>
 
@@ -44,7 +80,7 @@ export default {
     border-radius: 54% 46% 42% 52% / 65% 57% 42% 40%;
     background-color: #9be2d2;
     transition: 800ms;
-    animation: wave 10s linear infinite;
+    animation: wave 15s linear infinite;
     filter: drop-shadow(0px 4px 25px rgba(112, 212, 190, 0.42));
   }
 

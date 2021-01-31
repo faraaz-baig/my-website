@@ -2,6 +2,7 @@
 title: Coding Design 🦄
 date: Jan 2021
 read: 2 mins
+id: 1
 ---
 
 More often than not, design is seen as merely aesthetics. Many organisations separate design from the development process, with designers handing static screens and prototypes to engineers — and in worst-case scenarios designers and engineers don’t even sit together. In the world of interactive design, functionality should play a significant role in the design process.

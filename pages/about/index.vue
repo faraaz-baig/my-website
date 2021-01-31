@@ -150,10 +150,40 @@ export default {
           business: ['Baig Academy', 'Viral Fate', 'Impact Act', 'ONEGIG'],
           sports: ['Football', 'Taekwondo', 'Running', 'Trekking'],
           writing: ['How I Found Myself'],
-          langs: ['English', 'Urdu', 'Kannada', 'Hindi', 'Arabic', 'Korean', 'Telugu']
+          langs: ['English', 'Urdu', 'Kannada', 'Hindi', 'Arabic', 'Korean', 'Telugu', 'Chinese', 'Bhojpuri'],
+          description: 'I am a Bangalore based Tech Entrepreneur currently building onegig.in, Full Stack Developer and a Podcaster.',
+          name: 'About',
+
       }
   },
-    
+  head() {
+    return {
+        meta: [{
+            hid: 'description',
+            name: 'description',
+            content: this.description}, 
+            {
+            hid: 'twitter:card',
+            name: 'twitter:card',
+            content: `Faraaz Baig | ${this.name}`}, 
+            {
+            hid: 'twitter:title',
+            name: 'twitter:title',
+            content: `Faraaz Baig | ${this.name}`}, 
+            {
+            hid: 'twitter:description',
+            name: 'twitter:description',
+            content: this.description}, 
+            {
+            hid: 'og:title',
+            name: 'og:title',
+            content: `Faraaz Baig | ${this.name}`}, 
+            {
+            hid: 'og:description',
+            name: 'og:description',
+            content: this.description}]
+    }
+  }
 }
 </script>
 

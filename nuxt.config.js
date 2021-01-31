@@ -10,7 +10,20 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' }
+      { hid: 'description', name: 'description', content: "Faraaz Baig is a Bangalore based Tech Entrepreneur currently building @onegig, Full Stack Developer and a Podcaster." },
+      { hid: 'og:description', name: 'og:description', content: "Faraaz Baig is a Bangalore based Tech Entrepreneur currently building @onegig, a Full Stack Developer and a Podcaster." },
+      { hid: 'og:site_name', name: 'og:site_name', content: "Faraaz Baig" },
+      { hid: 'og:title', name: 'og:title', content: "Faraaz Baig" },
+      { hid: 'og:image', name: 'og:image', content: "/my.png" },
+      { hid: 'twitter:title', name: 'twitter:title', content: "Faraaz Baig - A tech entrepreneur" },
+      { hid: 'twitter:site', name: 'twitter:site', content: "@faraazofficial" },
+      { hid: 'twitter:creator', name: 'twitter:creator', content: "@faraazofficial" },
+      { hid: 'twitter:card', name: 'twitter:card', content: "Faraaz Baig | A Tech Entreprenur" },
+      { hid: 'twitter:image', name: 'twitter:image', content: "/my.png" },
+      { hid: 'twitter:description', name: 'twitter:description', content: "Faraaz Baig is a Bangalore based Tech Entrepreneur currently building @onegig, a Full Stack Developer and a Podcaster." },
+      { hid: 'apple-mobile-web-app-title', name: 'apple-mobile-web-app-title', content: "Faraaz Baig" },
+      { hid: 'mobile-mobile-web-app-capable', name: 'apple-mobile-web-app-capable', content: "Faraaz Baig" },
+      { hid: 'keywords', name: 'keywords', content: 'vuejs, nuxt, javascript, personal webste, coding, entrepreneur, entreprenurship, bangalore, bengaluru, tech entrepreneur, teenage entrepreneur, onegig, faraaz baig, faraaz, linkedin, gmail, instagram, github, blog, podcast, impact act, viralfate, baig academy' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/icon.svg' },
