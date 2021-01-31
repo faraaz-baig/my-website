@@ -9,7 +9,7 @@
                 <c-list-item ><c-list-icon icon="clock"/>{{ article.read }}</c-list-item>
             </c-list>
         </c-box>
-        <c-box d="flex" mt="1rem" justify-content="center" >
+        <c-box d="flex" mt="1rem" justify-content="center">
             <c-button as="nuxt-link" to="/blog" left-icon="arrow-left">Go Back</c-button>
         </c-box>
     </c-box>

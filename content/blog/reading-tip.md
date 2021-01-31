@@ -1,7 +1,7 @@
 ---
 title: Reading Tip 📚 #1
 date: Jan 2021
-read: 3 mins
+read: 1 mins read
 id: 2
 ---
 Occasionally I'll find myself browsing Bret Victor's website. I'm usually looking for inspiration and I am always curious to see what he is working on at any given moment.

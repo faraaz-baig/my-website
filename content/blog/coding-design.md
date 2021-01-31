@@ -1,7 +1,7 @@
 ---
 title: Coding Design 🦄
 date: Jan 2021
-read: 2 mins
+read: 2 mins read
 id: 1
 ---
 

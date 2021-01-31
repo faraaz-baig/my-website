@@ -1,7 +1,7 @@
 ---
 title: Why I use DuckDuckGO 🌐 
 date: Jan 2021
-read: 2 mins
+read: 2 mins read
 id: 3
 ---
 
