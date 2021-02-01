@@ -1,5 +1,5 @@
 ---
-title: Why I choose to marry Vue 🤵
+title: Why I choose to marry Vue 💍
 date: Feb 2021
 read: 4 mins read
 id: 3
