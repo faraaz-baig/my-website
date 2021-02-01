@@ -19,7 +19,7 @@ For starters, Vue’s creator, Evan You, was initially a designer (if I recall),
 <br/>
 <br/>
 
-**Vue likes KISS**
+# **Vue likes KISS**
 
 <br/>
 
@@ -61,7 +61,7 @@ Have you ever heard KISS?, Keep It Simple Stupid.
 <br/>
 <br/>
 
-## **When Flux meets Vue**
+# **When Flux meets Vue**
 
 <br/>
 
@@ -108,7 +108,7 @@ export default new Vuex.Store({
 <br/>
 <br/>
 
-## **Vue 3**
+# **Vue 3**
 
 <br/>
 
@@ -116,7 +116,7 @@ Soon we will have a big update that will come with great features to improve eve
 
 <br/>
 
-#### **TypeScript by default**
+### **TypeScript by default**
 
 <br/>
 
@@ -124,12 +124,12 @@ Maybe is bad new for ones, but this integration will make Vue become more suitab
 
 <br/>
 
-#### **Migration**
+### **Migration**
 For the existing projects, you will not have to blow up everything and start again because the integration of the new features could be added without major problems.
 
 <br/>
 
-#### **Composition API****
+### **Composition API**
 
 <br/>
 
@@ -137,13 +137,15 @@ Components will become more scalable and readable with the new functions in the 
 
 <br/>
 
-#### **Efficient and smaller**
+### **Efficient and smaller**
 
 <br/>
 
 Believed or not, the new version will be even lighter (around 10KB bundled) and faster.
 If you want to know when is the new version released, keep in touch with the Vue news page.
 
+<br/>
+<br/>
 <br/>
 
 ## **Community**
@@ -153,6 +155,9 @@ If you want to know when is the new version released, keep in touch with the Vue
 If you think that popularity is not important in the programmers' world, maybe you haven’t heard but it does matter. A big community means that many other developers are working with the same frameworks and they solve problems or doubts that you can have someday too, for the other side there would be more people creating components, plugins and pushing creators to keep updating and improving the framework. Ah, by the way in the programming world something doesn’t become popular just because is pretty but just when it is good.
 
 <br/>
+<br/>
+<br/>
+
 
 ## **Conclusion**
 
