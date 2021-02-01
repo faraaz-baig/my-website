@@ -45,12 +45,23 @@ export default {
     '@nuxtjs/emotion',
     '@nuxt/content',
     '@nuxtjs/pwa',
+    '@nuxtjs/sitemap'
   ],
 
   pwa: {
     manifest: {
       lang: 'en'
     }
+  },
+
+  sitemap: {
+    hostname: 'https://faraazbaig.com',
+    gzip: true,
+    routes: [
+      '/blog/coding-design',
+      '/blog/reading-tip',
+      '/blog/why-i-choose-to-marry-vue'
+    ]
   },
 
   build: {
