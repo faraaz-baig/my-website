@@ -117,9 +117,6 @@ Soon we will have a big update that will come with great features to improve eve
 <br/>
 
 ### **TypeScript by default**
-
-<br/>
-
 Maybe is bad new for ones, but this integration will make Vue become more suitable for projects with more developers behind.
 
 <br/>
@@ -130,17 +127,11 @@ For the existing projects, you will not have to blow up everything and start aga
 <br/>
 
 ### **Composition API**
-
-<br/>
-
 Components will become more scalable and readable with the new functions in the Composition API.
 
 <br/>
 
 ### **Efficient and smaller**
-
-<br/>
-
 Believed or not, the new version will be even lighter (around 10KB bundled) and faster.
 If you want to know when is the new version released, keep in touch with the Vue news page.
 
