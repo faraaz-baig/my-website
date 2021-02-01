@@ -154,7 +154,7 @@ If you think that popularity is not important in the programmers' world, maybe y
 
 <br/>
 
-I've been writing Vue.js code every day for around 2 months in various projects, with impressive results. 2 months is nothing in backend world, but it is something in JS world :) I'll see how it goes further.
+I've been writing Vue.js code every day for around 2 months in various projects, with impressive results. 2 months is nothing in backend world, but it is something in JS world 😊 I'll see how it goes further.
 
 <br/>
 
