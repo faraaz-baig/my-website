@@ -13,9 +13,7 @@
             <c-button size="sm" as="nuxt-link" to="/blog" left-icon="arrow-left">Go Back</c-button>
         </c-box>
     </c-box>
-    <c-box :font-size="['sm', 'sm', 'md', 'l' ]" my="4rem" px="3rem">
-        <nuxt-content :document="article"/>
-    </c-box>
+    <c-text :font-size="['sm', 'sm', 'md', 'l' ]" my="4rem" px="3rem"><nuxt-content :document="article"/></c-text>
     <c-box height="110px" display="block"></c-box>
     <Footer />
   </c-box>
