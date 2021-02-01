@@ -1,7 +1,7 @@
 ---
 title: Why I choose to marry Vue 🤵
 date: Feb 2021
-read: 2 mins read
+read: 4 mins read
 id: 3
 ---
 
