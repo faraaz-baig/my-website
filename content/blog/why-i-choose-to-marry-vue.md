@@ -3,6 +3,7 @@ title: Why I choose to marry Vue 💍
 date: Feb 2021
 read: 4 mins read
 id: 3
+slug: why-i-choose-to-marry-vue
 ---
 
 **STOP!** Wait a minute before screaming, yelling and insulting me in the DMs haha.

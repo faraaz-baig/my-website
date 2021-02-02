@@ -6,7 +6,7 @@
       <c-text mt="4" :font-size="['md', 'l', 'xl', 'xl']" :width="['18rem', '24rem', '33rem', '33rem']" font-weight="500">I Usually write about things that wander around my head. People find it interesting to read.</c-text>
     </c-box>
     <c-grid px="2rem" w="100%" :template-columns="['repeat(1, 1fr)', 'repeat(1, 2fr)', 'repeat(1, 3fr)', 'repeat(2, 4fr)']" justify-content="center" gap="8" mt="5rem">
-      <c-box as="nuxt-link" :to="`/blog/${article.slug}/`" v-for="article in articles" :key="article.id" d="flex" flex-direction="column" justify-content="space-between" mx="auto" :width="['100%', '420px', '550px', '450px']" border-radius="20px" p="1.5rem" color="black" bg="green.300">
+      <c-box as="nuxt-link" :to="{ name: 'slug', params: { slug: article.slug } }" v-for="article in articles" :key="article.id" d="flex" flex-direction="column" justify-content="space-between" mx="auto" :width="['100%', '420px', '550px', '450px']" border-radius="20px" p="1.5rem" color="black" bg="green.300">
         <c-text :font-size="['sm', 'l', 'l', 'xl']" mb="2rem" font-weight="700">{{ article.title }}</c-text>
         <c-list d="flex" justify-content="space-between" :font-size="['xxs', 'xs', 'xs', 'sm']" opacity="0.6">
           <c-list-item><c-list-icon icon="calendar-week"/>{{ article.date }}</c-list-item>
@@ -44,10 +44,8 @@ export default {
     CListItem,
     CGrid
   },
-  async asyncData(context) {
-    const { $content } = context
-    const articles = await $content('blog').fetch()
-    console.log(articles)
+  async asyncData({ $content, params }) {
+    const articles = await $content('blog', params.slug).fetch();
     return {
       articles
     }

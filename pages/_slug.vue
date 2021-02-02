@@ -31,8 +31,15 @@
 } from '@chakra-ui/vue'
     
     export default {
-         name: 'blog',
-  components: {
+    async asyncData({ $content, params }) {
+        const article = await $content('blog', params.slug).fetch();
+        return {
+            article
+        }
+    },
+
+    name: 'blog',
+    components: {
     CImage,
     CBox,
     CText,
@@ -41,14 +48,8 @@
     CListItem,
     CButton
   },
-       async asyncData({ $content, params }) {
-           const article = await $content('blog', params.slug).fetch()
-           console.log(article)
-           return {
-               article
-           }
-       }
-    }
+    
+}
 </script>
 
 <style scoped>
