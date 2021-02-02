@@ -38,7 +38,7 @@
         }
     },
 
-    name: 'blog',
+    name: 'blog page',
     components: {
     CImage,
     CBox,
