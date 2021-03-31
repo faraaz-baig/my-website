@@ -13,7 +13,7 @@
                 <c-text mt="6" line-height="2"> During my 11th grade, I started preparing for IIT so I can crack it a year before my peers. But soon I realized that the Indian education system sucks. which led me to start my first ever startup called Baig Academy. 
                 </c-text>
                 <c-text mt="6" line-height="2">later,I co founded ViralFate.
-                     Currently I am building <c-link as="a" href="https://www.onegig.in" color="green.500" >ONEGIG</c-link> ( marketplace that connects artists with event managers ).
+                     Currently I am building <c-link as="a" href="https://theopendrone.com" color="green.500" >The Open Drone</c-link> ( Drone Delivery for Every Business ).
                 </c-text>
                 <c-text mt="6" line-height="2">I run a podcast called <c-link as="a" href="https://www.achor.fm/impactact" color="green.500" >Impact Act</c-link> where I shares my perspective on life and talk about things around. </c-text>
             </c-box>
@@ -143,7 +143,7 @@ export default {
   },
   data() {
       return {
-          coding: ['HTML', 'CSS', 'SASS', 'JavaScript', 'Docker', 'Kubernetes', 'GraphQL', 'Vue', 'Vuex', 'NuxtJS', 'Vuetify', 'Git', 'Chakra UI', 'Tailwind CSS', 'JAMstack', 'NodeJS', 'ExpressJS', 'MongoDB', 'Parse', 'Firebase', 'NaveScript', 'Electron', 'Axios', 'Yarn', 'Gridsome', 'TypeScript', 'Deno', 'BlockChain'],
+          coding: ['HTML', 'CSS','JavaScript', 'Rust', 'Kotlin', 'Docker, 'GraphQL', 'Vue', 'NuxtJS', 'Git', 'JAMstack', 'NodeJS', 'ExpressJS', 'MongoDB', 'PostgreSQL', 'Firebase', 'React Native', 'Vue Native', 'Haskell', 'serenity', 'Electron', 'Yarn', 'Gridsome', 'TypeScript', 'Deno', 'Rockect.rs', 'Actix.rs', 'Cargo'],
           gaming: ['League Of Legends', 'Hitman 3', 'Warcraft III'],
           designing: ['Canva', 'Figma', 'AdobeXD'],
           audio: ['Audacity', 'FL Studio', 'Adobe Audition'],
